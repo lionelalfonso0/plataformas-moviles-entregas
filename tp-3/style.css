@@ -1,0 +1,35 @@
+article h1 {
+    text-align: center;
+}
+
+article p {
+    font-family: sans-serif;
+}
+
+.importante{
+    color:#d10e0e;
+}
+
+p em{
+    color:#933 !important;
+}
+
+p a{
+    outline: 1px solid #333 !important;
+}
+
+body p.fuente{
+    opacity: 100% !important;
+}
+
+body p.fuente.parrafo{
+    color:#000 !important;
+}
+
+p span.complicado{
+    font-weight: bold;
+    color:#C62 !important;
+}
+
+
+
