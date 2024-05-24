@@ -1,0 +1,62 @@
+@media (width > 400px) {
+    * {
+        background-color: rgb(40,60,80);
+    }
+}
+
+@media (width < 800px) {
+    h1 {
+        text-align: center;
+    }
+}
+
+@media (orientation: landscape) {
+    article {
+        max-width: 50ch;
+    }
+}
+
+@media (min-height: 200px){
+    h1 {
+        background-color: darkgreen;
+    }
+}
+
+@media print{
+    p {
+        font-family: serif;
+    }
+}
+
+@media (prefers-color-scheme: light) {
+    h1, body {
+        background-color: #DDD !important;
+        color: #111 !important;
+    }
+}
+
+@media screen and (hover: none){
+    a{
+        background-color: #212;
+        padding: 2px 5px;
+    }
+}
+
+@media screen and (width >= 800px) and (width < 900px){
+    figure img {
+        display: none;
+    }
+}
+
+@media screen and (width >= 200px) and (width < 400px){
+    figure img {
+        object-fit: cover;
+        height: 400px;
+    }
+}
+
+@media screen (min-resolution: 2ddpx){
+    article{
+        background-color: #667;
+    }
+}
