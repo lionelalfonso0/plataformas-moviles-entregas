@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script type="text/javascript">
+    //Punto 1
+    const suma = (num1, num2) => num1 + num2;
+
+    console.log("suma(2,3): ", suma(2,3));
+
+    //Punto 2
+    function  elevarAlCubo(elevar){
+        return elevar ** 3;
+    }
+    console.log("elevarAlCubo(2): ", elevarAlCubo(2));
+
+    //Punto 3
+    function restoDivisionEntera(num1, num2){
+        return num1 % num2;
+    }
+    console.log("restoDivisionEntera(3,2): ", restoDivisionEntera(3,2))
+
+    //Punto 4
+    const numeroPi = function() {
+        return Math.PI;
+    }
+    console.log("numeroPi(): ", numeroPi());
+
+    //Punto 5
+    const numeroRandom = function() {
+        return Math.random();
+    }
+    console.log("numeroRandom(): ", numeroRandom());    
+
+    //Punto 6
+    function mejorNumeroRandom(min, max) {
+        return Math.floor((min + max) / 2);
+    }
+    console.log("mejorNumeroRandom(3, 5): ", mejorNumeroRandom(3, 5));
+    
+    //Punto 7
+    function transformarMayuscula(palabra) {
+        return palabra.toUpperCase();
+    }
+    console.log("transformarMayuscula('Plataformas Móviles'): ", transformarMayuscula('Plataformas Móviles'));
+
+    //Punto 8
+    function primeraLetra(palabra) {
+        return palabra.charAt(0);
+    }
+    console.log("primeraLetra(\"Plataformas\"): ", primeraLetra("Plataformas"));
+
+    //Punto 9
+    function ultimaLetra(palabra) {
+        return palabra.charAt(palabra.length - 1);
+    }
+    console.log("ultimaLetra(\"Plataformas\"): ", ultimaLetra("Plataformas"));
+
+    //Punto 10 
+    function primeraLetraMayuscula(palabra) {
+        return palabra.charAt(0).toUpperCase() + palabra.slice(1);
+    }
+    console.log("primeraLetraMayuscula(\"plataformas\"): ", primeraLetraMayuscula("plataformas"));
+
+    //Punto 11
+    function palabraAListaDeLetras(palabra) {
+        return palabra.split('');
+    }
+    console.log("palabraAListaDeLetras(\"hola\"): ", palabraAListaDeLetras("hola"));
+
+    //Punto 12 
+    function listadoDeLetrasAPalabra(listado) {
+        return listado.join('');
+    }
+    console.log("listadoDeLetrasAPalabra([\"h\", \"o\", \"l\", \"a\"]): ", listadoDeLetrasAPalabra(["h", "o", "l", "a"]));
+
+    //Punto 13
+    function palabraInvertida(palabra) {
+        return palabra.split('').reverse().join('');
+    }
+    console.log("palabraInvertida(\"hola\"): ", palabraInvertida("hola"));
+    
+    </script>
+</body>
+</html>
